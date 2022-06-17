@@ -26,3 +26,4 @@ while rental_open:
 print("\n--- Property to rent ---")
 for username, rental_property in rental_properties.items():
     print(username + " has " + rental_property + " to rent. ")        
+ 
