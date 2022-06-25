@@ -1,4 +1,4 @@
-### 24 / 06 / 2022
+### 25 / 06 / 2022
 ### Author: Michael Jonathan
 ### Creating my first class
 
@@ -22,9 +22,9 @@ class Book():
 
     def ebook(self):
         """Simulate an ebook"""
-        print(self.name.title() + " is an ebook.")     
+        print(self.name.title() + " is an ebook.")  
 
 # Creating an instance of a book class.
-my_book = Book('elon musk', 14.99, 'virgin books')     
+my_book = Book('elon musk', 14.99, 'virgin books')
 
-my_book.hardback()
+my_book.softback()
