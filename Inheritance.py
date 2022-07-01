@@ -33,11 +33,11 @@ class Ereader():
         self.library_count += purchased_ebooks   
 
 class Kindlefire(Ereader):
-    """Represents aspects of an ereader specific to a kindle Fire.
-        Then intialize attribtues specific to a Kindle Fire."""
+    """Represents aspects of an ereader specific to a kindle Fire."""
 
-    def __init__(self, make, model, backlight, battery, screen_type):
-            """Initialize attributes for the Kindle fire"""
+    def __init__(self, make, model, backlight, battery, screen_type, screen_resloution='12'):
+            """Initialize attributes for the Kindle fire
+                Then intialize attribtues specific to a Kindle Fire."""
 
             super().__init__(make, model,backlight, battery, screen_type)
 
